@@ -160,7 +160,7 @@ class MainActivity : AppCompatActivity() {
                 setTextColor(false)
             }
 
-            "Light Rain", "Drizzle", "Moderate Rain", "Showers", "Rain", "Heavy Rain","Thunders Storm" -> {
+            "Light Rain", "Drizzle", "Moderate Rain", "Showers", "Rain", "Heavy Rain","Thunderstorm" -> {
                 binding.root.setBackgroundResource(R.drawable.rain_background)
                 binding.lottieAnimationView.setAnimation(R.raw.raincloud)
                 setTextColor(false)
